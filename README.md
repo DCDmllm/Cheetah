@@ -2,7 +2,7 @@
 <img src="figs/cheetah_logo.png"  width="60%">
 </p>
 
-# Cheetah: Empowering Vision-Language Models to Follow Interleaved Vision-Language Instructions
+# Empowering Vision-Language Models to Follow Interleaved Vision-Language Instructions
 
 Juncheng Li<sup>1,2</sup>\*, Kaihang Pan<sup>1</sup>\*, Zhiqi Ge<sup>1</sup>\*, Minghe Gao<sup>1</sup>\*, Hanwang Zhang<sup>3</sup>, Wei Ji<sup>2</sup>, Wenqiao Zhang<sup>2</sup>, Tat-Seng Chua<sup>2</sup>, Siliang Tang<sup>1&dagger;</sup>, Yueting Zhuang<sup>1&dagger;</sup>
 
