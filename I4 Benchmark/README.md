@@ -45,8 +45,8 @@ Since we explore quantities of tasks, we take maximally 500 instances per task f
 | mPLUG-Owl        | llama-7b        | 12.67                | 19.33                     | 5.40                      | 16.25             | 33.27                 | 32.47               | 42.50                 |
 | OpenFlamingo     | llama-7b        | 16.88                | 24.22                    | 13.85                     | 21.65             | 32.00                 | 30.60               | 41.63                 |
 | Otter            | llama-7b        | 15.37                | 15.57                     | 11.39                     | 16.00             | 41.67                 | 27.73               | 43.85                |
-| Cheetah          | llama-2-7b-chat | **42.70**            | 24.76                   | 25.50                     | **22.95**         | **51.00**             | **44.93**           | 48.68                 |
-| Cheetah          | vicuna-7b       | 37.50                | **25.20**                 | **25.90**                 | 22.15           | 48.60                | **44.93**            | **50.28**           |
+| Cheetor          | llama-2-7b-chat | **42.70**            | 24.76                   | 25.50                     | **22.95**         | **51.00**             | **44.93**           | 48.68                 |
+| Cheetor          | vicuna-7b       | 37.50                | **25.20**                 | **25.90**                 | 22.15           | 48.60                | **44.93**            | **50.28**           |
 
 ## Contact
 If you want to update your model in I4-Benchmark, feel free to contact us via email zhiqige2000@gmail.com.
