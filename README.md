@@ -91,3 +91,7 @@ If you found this work useful, please consider giving this repository a star and
       primaryClass={cs.CV}
 }
 ```
+
+## Acknowledgment
+We've built upon the [LAVIS](https://github.com/salesforce/LAVIS/tree/main) library by Salesforce for the development of our code.
+
