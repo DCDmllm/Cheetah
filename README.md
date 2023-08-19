@@ -95,3 +95,5 @@ If you found this work useful, please consider giving this repository a star and
 ## Acknowledgment
 We've built upon the [LAVIS](https://github.com/salesforce/LAVIS/tree/main) library by Salesforce for the development of our code.
 
+## Lincense 
+This repository is under [BSD 3-Clause License](https://github.com/salesforce/LAVIS/blob/main/LICENSE.txt).
