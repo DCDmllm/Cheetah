@@ -21,6 +21,7 @@ Juncheng Li<sup>1,2</sup>*, Kaihang Pan<sup>1</sup>*, Zhiqi Ge<sup>1</sup>*, Min
 <a>English</a> | <a href="README_zh.md">简体中文</a>
 
 </div>
+
 ## I4 Benchmark
 
 To facilitate research in interleaved vision-language instruction following, we build **I4** (semantically **I**nterconnected, **I**nterleaved **I**mage-Text **I**nstruction-Following), an extensive large-scale benchmark of 31 tasks with diverse instructions in a uniﬁed instruction-response format, covering 20 diverse scenarios.
