@@ -92,13 +92,11 @@ And in the near future, we will also demonstrate how to launch the gradio demo o
 ## Citation
 If you found this work useful, please consider giving this repository a star and citing our paper as followed:
 ```
-@misc{li2023empowering,
-      title={Empowering Vision-Language Models to Follow Interleaved Vision-Language Instructions}, 
-      author={Juncheng Li and Kaihang Pan and Zhiqi Ge and Minghe Gao and Hanwang Zhang and Wei Ji and Wenqiao Zhang and Tat-Seng Chua and Siliang Tang and Yueting Zhuang},
-      year={2023},
-      eprint={2308.04152},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@article{li2023empowering,
+  title={Empowering Vision-Language Models to Follow Interleaved Vision-Language Instructions},
+  author={Li, Juncheng and Pan, Kaihang and Ge, Zhiqi and Gao, Minghe and Zhang, Hanwang and Ji, Wei and Zhang, Wenqiao and Chua, Tat-Seng and Tang, Siliang and Zhuang, Yueting},
+  journal={arXiv preprint arXiv:2308.04152},
+  year={2023}
 }
 ```
 
