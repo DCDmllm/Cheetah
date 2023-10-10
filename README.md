@@ -3,7 +3,7 @@
 </p>
 
 <h1 align = "center">
-Empowering Vision-Language Models to Follow Interleaved Vision-Language Instructions
+Fine-tuning Multimodal LLMs to Follow Zero-shot Demonstrative Instructions
 </h1>
 
 <div align="center">
@@ -92,8 +92,8 @@ And in the near future, we will also demonstrate how to launch the gradio demo o
 ## Citation
 If you found this work useful, please consider giving this repository a star and citing our paper as followed:
 ```
-@article{li2023empowering,
-  title={Empowering Vision-Language Models to Follow Interleaved Vision-Language Instructions},
+@article{li2023finetuning,
+  title={Fine-tuning Multimodal LLMs to Follow Zero-shot Demonstrative Instructions}, 
   author={Li, Juncheng and Pan, Kaihang and Ge, Zhiqi and Gao, Minghe and Zhang, Hanwang and Ji, Wei and Zhang, Wenqiao and Chua, Tat-Seng and Tang, Siliang and Zhuang, Yueting},
   journal={arXiv preprint arXiv:2308.04152},
   year={2023}
