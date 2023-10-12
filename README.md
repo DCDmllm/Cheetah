@@ -22,26 +22,29 @@ Juncheng Li<sup>1,2</sup>*, Kaihang Pan<sup>1</sup>*, Zhiqi Ge<sup>1</sup>*, Min
 
 </div>
 
-## I4 Benchmark
+## DEMON Benchmark
 
-To facilitate research in interleaved vision-language instruction following, we build **I4** (semantically **I**nterconnected, **I**nterleaved **I**mage-Text **I**nstruction-Following), an extensive large-scale benchmark of 31 tasks with diverse instructions in a uniﬁed instruction-response format, covering 20 diverse scenarios.
+To comprehensively benchmark the demonstrative instruction following ability, we extensively gather a wide variety of multi-modal datasets from different fields and scenarios. 
 
-I4 has three important properties: 
+DEMON has three important properties: 
 
-- **Interleaved vision-language context:** all the instructions contain sequences of inter-related images and texts, such as storyboards with scripts, textbooks with diagrams. 
-- **Diverse forms of complex instructions:** the instructions range from predicting dialogue for comics, to discovering differences between surveillance images, and to conversational embodied tasks. 
-- **Vast range of instruction-following scenarios:** the benchmark covers multiple application scenarios, including cartoons, industrial images, driving recording, etc.
+- **Demonstrative vision-language context:** all the instructions contain sequences of inter-related images and texts, such as storyboards with scripts, and textbooks with diagrams.
+- **Diverse forms of complex instructions:** the instructions range from designing panels for comics, to discovering differences
+between surveillance images, and to conversational embodied tasks. 
+- **Vast range of instruction-following scenarios:** the benchmark covers multiple practical scenarios, including cartoons, indus-
+trial visuals, driving recordings, recipes, etc.
 
 ![images](figs/demo.svg)
 
-## Cheetor: a multi-modal large language model empowered by controllable knowledge re-injection
-Cheetor is a Transformer-based multi-modal large language model empowered by controllable knowledge re-injection, which can effectively handle a wide variety of interleaved vision-language instructions.
+## Visual Prompt Generator Complete
+VPG-C is built upon the frozen LLM and vision encoder. We adopt the widely used Q-Former from BLIP-2 as our visual prompt generator. VPG-C first uses the intermediate output of the LLM to infer instruction-specific guidance. This then assists the VPG in attending the missing visual details from the images. By merging these residual details back via a residual connection, VPG-C  achieves a thorough grasp of the demonstrative instruction.
 
-![images](figs/framework.png)
+![images](figs/vpgc-model.svg)
 
+Empowered by VPG-C, which can effectively handle a wide variety of interleaved vision-language instructions, we develop Cheetah, a Transformer-based multi-modal large language model.
 
 ## Cases
-Cheetor demonstrates strong abilities to perform reasoning over complicated interleaved vision-language instructions. For instance, in **(a)**, Cheetor is able to keenly identify the connections between the images and thereby infer the reason that causes this unusual phenomenon. In **(b, c)**, Cheetor can reasonably infer the relations among the images and understand the metaphorical implications they want to convey. In **(e, f)**, Cheetor exhibits the ability to comprehend absurd objects through multi-modal conversations with humans.
+Cheetah demonstrates strong abilities to perform reasoning over complicated interleaved vision-language instructions. For instance, in **(a)**, Cheetah is able to keenly identify the connections between the images and thereby infer the reason that causes this unusual phenomenon. In **(b, c)**, Cheetah can reasonably infer the relations among the images and understand the metaphorical implications they want to convey. In **(e, f)**, Cheetah exhibits the ability to comprehend absurd objects through multi-modal conversations with humans.
 
 
 ![images](figs/case.svg)
