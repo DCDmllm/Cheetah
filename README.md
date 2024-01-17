@@ -1,20 +1,19 @@
-<p align="center">
-<img src="figs/cheetah_logo.png"  width="60%">
-</p>
 
 <h1 align = "center">
 Fine-tuning Multimodal LLMs to Follow Zero-shot Demonstrative Instructions
 </h1>
 
 <div align="center">
-Juncheng Li<sup>1,2</sup>*, Kaihang Pan<sup>1</sup>*, Zhiqi Ge<sup>1</sup>*, Minghe Gao<sup>1</sup>*, Hanwang Zhang<sup>3</sup>, Wei Ji<sup>2</sup>, Wenqiao Zhang<sup>2</sup>, 
+Juncheng Li<sup>1,2</sup>*, Kaihang Pan<sup>1</sup>*, Zhiqi Ge<sup>1</sup>*, Minghe Gao<sup>1</sup>*, Wei Ji<sup>2</sup>, Wenqiao Zhang<sup>2</sup>, 
  
- Tat-Seng Chua<sup>2</sup>, Siliang Tang<sup>1&dagger;</sup>, Yueting Zhuang<sup>1&dagger;</sup>
+ Tat-Seng Chua<sup>2</sup>, Siliang Tang<sup>1&dagger;</sup>, Hanwang Zhang<sup>3</sup>, Yueting Zhuang<sup>1&dagger;</sup>
 
 
 <sup>1</sup>Zhejiang University, <sup>2</sup>National University of Singapore, <sup>3</sup>Nanyang Technological University
 
 \*Equal Contribution. <sup>&dagger;</sup>Corresponding Authors
+
+**ICLR 2024, Spotlights (Top 5%)**
 
 <a href='https://arxiv.org/abs/2308.04152'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a> 
 
