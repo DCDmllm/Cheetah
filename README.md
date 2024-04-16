@@ -4,7 +4,7 @@ Fine-tuning Multimodal LLMs to Follow Zero-shot Demonstrative Instructions
 </h1>
 
 <div align="center">
-Juncheng Li<sup>1,2</sup>*, Kaihang Pan<sup>1</sup>*, Zhiqi Ge<sup>1</sup>*, Minghe Gao<sup>1</sup>*, Wei Ji<sup>2</sup>, Wenqiao Zhang<sup>2</sup>, 
+Juncheng Li<sup>1,2</sup>*, Kaihang Pan<sup>1</sup>*, Zhiqi Ge<sup>1</sup>*, Minghe Gao<sup>1</sup>*, Wei Ji<sup>2</sup>, Wenqiao Zhang<sup>2&dagger</sup>, 
  
  Tat-Seng Chua<sup>2</sup>, Siliang Tang<sup>1&dagger;</sup>, Hanwang Zhang<sup>3</sup>, Yueting Zhuang<sup>1&dagger;</sup>
 
